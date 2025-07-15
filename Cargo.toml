@@ -1,0 +1,16 @@
+[package]
+name = "end-of-month"
+version = "0.1.0"
+edition = "2021"
+authors = ["Siswoyo <siswoyo.dev@gmail.com>"]
+description = "Returns the end of the month for a given date"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/siswoyo-dev/end-of-month-rs"
+homepage = "https://github.com/siswoyo-dev/end-of-month-rs"
+documentation = "https://docs.rs/end-of-month-rs"
+readme = "README.md"
+keywords = ["date", "calendar", "eom", "chrono"]
+categories = ["date-and-time"]
+
+[dependencies]
+chrono = "0.4"
